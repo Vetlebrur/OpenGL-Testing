@@ -1,0 +1,3 @@
+/Users/vetlebrur/Documents/GitHub/OpenGL-Testing/build/CMakeFiles/MyGLFWProject.dir
+/Users/vetlebrur/Documents/GitHub/OpenGL-Testing/build/CMakeFiles/edit_cache.dir
+/Users/vetlebrur/Documents/GitHub/OpenGL-Testing/build/CMakeFiles/rebuild_cache.dir
