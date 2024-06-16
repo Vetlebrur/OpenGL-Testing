@@ -15,8 +15,12 @@ find_package(OpenGL REQUIRED)
 add_library(glad src/glad.c)
 target_include_directories(glad PUBLIC include)
 
+
 # Add the executable
-add_executable(MyGLFWProject main.cpp src/glad.c)
+add_executable(MyGLFWProject main.cpp src/glad.c  src/EBO.cpp src/shaderClass.cpp src/VAO.cpp src/VBO.cpp src/Shaders)
 
 # Link against GLFW and OpenGL
-target_link_libraries(MyGLFWProject glfw glad OpenGL::GL)
+target_link_libraries(MyGLFWProject glfw glad OpenGL::GL) 
+
+# Copy shaders to build directory
+file(COPY ${CMAKE_SOURCE_DIR}/src/shaders DESTINATION ${CMAKE_BINARY_DIR})
