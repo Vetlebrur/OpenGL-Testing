@@ -57,7 +57,6 @@ int main() {
         std::cerr << "Failed to initialize GLAD" << std::endl;
         return -1;
     }
-    gladLoadGL();
 
     //specifies viewport
     glViewport(0,0,SCREEN_WIDTH,SCREEN_HEIGHT);
