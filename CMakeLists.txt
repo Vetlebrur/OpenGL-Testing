@@ -16,8 +16,9 @@ add_library(glad src/glad.c)
 target_include_directories(glad PUBLIC include)
 
 
+
 # Add the executable
-add_executable(MyGLFWProject main.cpp src/glad.c  src/EBO.cpp src/shaderClass.cpp src/VAO.cpp src/VBO.cpp src/Shaders)
+add_executable(MyGLFWProject main.cpp src/glad.c  src/EBO.cpp src/shaderClass.cpp src/VAO.cpp src/VBO.cpp src/Shaders src/Camera)
 
 # Link against GLFW and OpenGL
 target_link_libraries(MyGLFWProject glfw glad OpenGL::GL) 

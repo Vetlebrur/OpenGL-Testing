@@ -1,11 +1,16 @@
 #include <GLFW/glfw3.h>
 #include "include/glad/glad.h"
 #include <iostream>
+#include "include/glm/glm.hpp"
+#include "include/glm/gtc/matrix_transform.hpp"
+#include "include/glm/gtc/type_ptr.hpp"
+
 
 #include "include/shaderClass.h"
 #include "include/VAO.h"
 #include "include/VBO.h"
 #include "include/EBO.h"
+#include "include/Camera.h"
 
 constexpr int SCREEN_WIDTH = 800;
 constexpr int SCREEN_HEIGHT = 600;
@@ -24,22 +29,36 @@ int main() {
 
 
     //vertices coordinates
-    GLfloat vertices[] = {
-        -0.5f, -0.5f*float(sqrt(3))/3, 0.0f, 0.8f, 0.3f, 0.02f,
-        0.5f, -0.5f*float(sqrt(3))/3, 0.0f, 0.8f, 0.3f, 0.02f,
-        0.0f,  0.5f*float(sqrt(3))*2/3, 0.0f, 1.0f, 0.6f, 0.32f,
-        -0.5f/2, 0.5f*float(sqrt(3))/6, 0.0f, 0.9f, 0.45f, 0.17f,
-        0.5f/2, 0.5f*float(sqrt(3))/6, 0.0f, 0.9f, 0.45f, 0.17f,
-        0.0f/2, -0.5f*float(sqrt(3))/3, 0.0f, 0.8f, 0.3f, 0.02f,
+    // GLfloat vertices[] = {
+    //     -0.5f,  0.0f,   0.5f,   0.8f,   0.3f,   0.7f, // top left
+    //     -0.5f,  0.0f,   -0.5f,  0.8f,   0.3f,   0.02f, // bottom left
+    //     0.5f,   0.0f,   -0.5f,  1.0f,   0.6f,    0.32f, // bottom right
+    //     0.5f,   0.0f,   0.5f,   0.9f,   0.45f,  0.17f, // top right
+    //     0.0f,   0.8f,   0.0f,   0.9f,   0.45f,  0.17f, // tip
 
+    // };
+    GLfloat vertices[]={
+        0.0f, 0.0f, 1.0f, 0.0f, 0.0f, 1.0f,
+        0.0f, 0.0f, 0.0f, 0.0f, 0.0f, 1.0f, 
+        1.0f, 0.0f, 0.0f, 0.0f, 0.0f, 1.0f, 
+        1.0f, 0.0f, 1.0f, 0.0f, 0.0f, 1.0f, 
+        0.0f, 1.0f, 1.0f, 0.0f, 0.0f, 1.0f,
+        0.0f, 1.0f, 0.0f, 0.0f, 0.0f, 1.0f, 
+        1.0f, 1.0f, 0.0f, 0.0f, 0.0f, 1.0f, 
+        1.0f, 1.0f, 1.0f, 0.0f, 0.0f, 1.0f, 
+    };
+    GLuint indices[]={
+        0,1,2,//bottom side
+        0,2,3,
+
+        2,3,7,//right side
+        2,6,7,
+
+        0,3,7,//top side
+        0,4,7,
     };
 
-    GLuint indices[] = 
-    {
-        0,3,5,
-        3,2,4,
-        5,4,1
-    };
+
 
     //creates window
     GLFWwindow* window = glfwCreateWindow(SCREEN_WIDTH, SCREEN_HEIGHT, "openGL testing", NULL, NULL);
@@ -77,24 +96,30 @@ int main() {
     VBO1.Unbind();
     EBO1.Unbind();
     
-  
+
+    glEnable(GL_DEPTH_TEST); //enable non render for objects behind other objects
+
+    Camera camera(SCREEN_WIDTH,SCREEN_HEIGHT,glm::vec3(0.0f,0.0f,2.0f));
 
     //checks for window close,
     while (!glfwWindowShouldClose(window)) {//main loop
         
         //sets background colour
-        glClearColor(1.0f,0.4f,1.0f,1.0f);
-        glClear(GL_COLOR_BUFFER_BIT);
+        glClearColor(0.0f,0.0f,0.0f,1.0f);
+        glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
 
-        //draws a triangle
+     
         shaderProgram.Activate();  //selects shader program
         
+        camera.Matrix(45.0f,0.1f,100.0f,shaderProgram,"camMatrix");
+
+
         //binds VAO s.t. openGL knows to use it
         VAO1.Bind();
         
         //glDrawArrays(GL_TRIANGLES,0,3); //Use if only drawing one triangle
         //draws all elements
-        glDrawElements(GL_TRIANGLES,9,GL_UNSIGNED_INT,0);
+        glDrawElements(GL_TRIANGLES,sizeof(indices)/sizeof(int),GL_UNSIGNED_INT,0);
 
 
         //swaps front and back buffer
