@@ -823,32 +823,6 @@ CMakeFiles/MyGLFWProject.dir/main.cpp.o: /Users/vetlebrur/Documents/GitHub/OpenG
   /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include/stddef.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include/stdint.h \
   /Users/vetlebrur/Documents/GitHub/OpenGL-Testing/include/glad/glad.h \
-  /Users/vetlebrur/Documents/GitHub/OpenGL-Testing/include/glm/glm.hpp \
-  /Users/vetlebrur/Documents/GitHub/OpenGL-Testing/include/glm/gtc/matrix_transform.hpp \
-  /Users/vetlebrur/Documents/GitHub/OpenGL-Testing/include/glm/gtc/type_ptr.hpp \
-  /Users/vetlebrur/Documents/GitHub/OpenGL-Testing/include/glm/detail/qualifier.hpp \
-  /Users/vetlebrur/Documents/GitHub/OpenGL-Testing/include/glm/detail/setup.hpp \
-  /Users/vetlebrur/Documents/GitHub/OpenGL-Testing/include/glm/ext/quaternion_exponential.hpp \
-  /Users/vetlebrur/Documents/GitHub/OpenGL-Testing/include/glm/ext/vector_relational.hpp \
-  /Users/vetlebrur/Documents/GitHub/OpenGL-Testing/include/glm/geometric.hpp \
-  /Users/vetlebrur/Documents/GitHub/OpenGL-Testing/include/glm/glm.hpp \
-  /Users/vetlebrur/Documents/GitHub/OpenGL-Testing/include/glm/gtc/constants.hpp \
-  /Users/vetlebrur/Documents/GitHub/OpenGL-Testing/include/glm/gtc/epsilon.hpp \
-  /Users/vetlebrur/Documents/GitHub/OpenGL-Testing/include/glm/gtc/matrix_transform.hpp \
-  /Users/vetlebrur/Documents/GitHub/OpenGL-Testing/include/glm/gtc/quaternion.hpp \
-  /Users/vetlebrur/Documents/GitHub/OpenGL-Testing/include/glm/gtx/component_wise.hpp \
-  /Users/vetlebrur/Documents/GitHub/OpenGL-Testing/include/glm/gtx/norm.hpp \
-  /Users/vetlebrur/Documents/GitHub/OpenGL-Testing/include/glm/gtx/quaternion.hpp \
-  /Users/vetlebrur/Documents/GitHub/OpenGL-Testing/include/glm/gtx/rotate_vector.hpp \
-  /Users/vetlebrur/Documents/GitHub/OpenGL-Testing/include/glm/gtx/transform.hpp \
-  /Users/vetlebrur/Documents/GitHub/OpenGL-Testing/include/glm/gtx/component_wise.inl \
-  /Users/vetlebrur/Documents/GitHub/OpenGL-Testing/include/glm/gtx/norm.inl \
-  /Users/vetlebrur/Documents/GitHub/OpenGL-Testing/include/glm/gtx/quaternion.inl \
-  /Users/vetlebrur/Documents/GitHub/OpenGL-Testing/include/glm/gtx/rotate_vector.hpp \
-  /Users/vetlebrur/Documents/GitHub/OpenGL-Testing/include/glm/gtx/rotate_vector.inl \
-  /Users/vetlebrur/Documents/GitHub/OpenGL-Testing/include/glm/gtx/transform.inl \
-  /Users/vetlebrur/Documents/GitHub/OpenGL-Testing/include/glm/gtx/vector_angle.hpp \
-  /Users/vetlebrur/Documents/GitHub/OpenGL-Testing/include/glm/gtx/vector_angle.inl \
   /Users/vetlebrur/Documents/GitHub/OpenGL-Testing/include/Camera.h \
   /Users/vetlebrur/Documents/GitHub/OpenGL-Testing/include/EBO.h \
   /Users/vetlebrur/Documents/GitHub/OpenGL-Testing/include/VAO.h \
@@ -1077,6 +1051,29 @@ CMakeFiles/MyGLFWProject.dir/main.cpp.o: /Users/vetlebrur/Documents/GitHub/OpenG
   /Users/vetlebrur/Documents/GitHub/OpenGL-Testing/include/glm/gtc/quaternion.inl \
   /Users/vetlebrur/Documents/GitHub/OpenGL-Testing/include/glm/gtc/type_ptr.hpp \
   /Users/vetlebrur/Documents/GitHub/OpenGL-Testing/include/glm/gtc/type_ptr.inl \
+  /Users/vetlebrur/Documents/GitHub/OpenGL-Testing/include/glm/detail/qualifier.hpp \
+  /Users/vetlebrur/Documents/GitHub/OpenGL-Testing/include/glm/detail/setup.hpp \
+  /Users/vetlebrur/Documents/GitHub/OpenGL-Testing/include/glm/ext/quaternion_exponential.hpp \
+  /Users/vetlebrur/Documents/GitHub/OpenGL-Testing/include/glm/ext/vector_relational.hpp \
+  /Users/vetlebrur/Documents/GitHub/OpenGL-Testing/include/glm/geometric.hpp \
+  /Users/vetlebrur/Documents/GitHub/OpenGL-Testing/include/glm/glm.hpp \
+  /Users/vetlebrur/Documents/GitHub/OpenGL-Testing/include/glm/gtc/constants.hpp \
+  /Users/vetlebrur/Documents/GitHub/OpenGL-Testing/include/glm/gtc/epsilon.hpp \
+  /Users/vetlebrur/Documents/GitHub/OpenGL-Testing/include/glm/gtc/matrix_transform.hpp \
+  /Users/vetlebrur/Documents/GitHub/OpenGL-Testing/include/glm/gtc/quaternion.hpp \
+  /Users/vetlebrur/Documents/GitHub/OpenGL-Testing/include/glm/gtx/component_wise.hpp \
+  /Users/vetlebrur/Documents/GitHub/OpenGL-Testing/include/glm/gtx/norm.hpp \
+  /Users/vetlebrur/Documents/GitHub/OpenGL-Testing/include/glm/gtx/quaternion.hpp \
+  /Users/vetlebrur/Documents/GitHub/OpenGL-Testing/include/glm/gtx/rotate_vector.hpp \
+  /Users/vetlebrur/Documents/GitHub/OpenGL-Testing/include/glm/gtx/transform.hpp \
+  /Users/vetlebrur/Documents/GitHub/OpenGL-Testing/include/glm/gtx/component_wise.inl \
+  /Users/vetlebrur/Documents/GitHub/OpenGL-Testing/include/glm/gtx/norm.inl \
+  /Users/vetlebrur/Documents/GitHub/OpenGL-Testing/include/glm/gtx/quaternion.inl \
+  /Users/vetlebrur/Documents/GitHub/OpenGL-Testing/include/glm/gtx/rotate_vector.hpp \
+  /Users/vetlebrur/Documents/GitHub/OpenGL-Testing/include/glm/gtx/rotate_vector.inl \
+  /Users/vetlebrur/Documents/GitHub/OpenGL-Testing/include/glm/gtx/transform.inl \
+  /Users/vetlebrur/Documents/GitHub/OpenGL-Testing/include/glm/gtx/vector_angle.hpp \
+  /Users/vetlebrur/Documents/GitHub/OpenGL-Testing/include/glm/gtx/vector_angle.inl \
   /Users/vetlebrur/Documents/GitHub/OpenGL-Testing/include/glm/integer.hpp \
   /Users/vetlebrur/Documents/GitHub/OpenGL-Testing/include/glm/mat2x2.hpp \
   /Users/vetlebrur/Documents/GitHub/OpenGL-Testing/include/glm/mat2x3.hpp \
@@ -1918,6 +1915,8 @@ CMakeFiles/MyGLFWProject.dir/src/Camera.cpp.o: /Users/vetlebrur/Documents/GitHub
   /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include/stdarg.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include/stddef.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include/stdint.h \
+  /Users/vetlebrur/Documents/GitHub/OpenGL-Testing/include/glad/glad.h \
+  /Users/vetlebrur/Documents/GitHub/OpenGL-Testing/include/Camera.h \
   /Users/vetlebrur/Documents/GitHub/OpenGL-Testing/include/KHR/khrplatform.h \
   /Users/vetlebrur/Documents/GitHub/OpenGL-Testing/include/glad/glad.h \
   /Users/vetlebrur/Documents/GitHub/OpenGL-Testing/include/glm/common.hpp \
@@ -2183,7 +2182,6 @@ CMakeFiles/MyGLFWProject.dir/src/Camera.cpp.o: /Users/vetlebrur/Documents/GitHub
   /Users/vetlebrur/Documents/GitHub/OpenGL-Testing/include/glm/vec4.hpp \
   /Users/vetlebrur/Documents/GitHub/OpenGL-Testing/include/glm/vector_relational.hpp \
   /Users/vetlebrur/Documents/GitHub/OpenGL-Testing/include/shaderClass.h \
-  /Users/vetlebrur/Documents/GitHub/OpenGL-Testing/include/Camera.h \
   /usr/local/include/GLFW/glfw3.h
 
 CMakeFiles/MyGLFWProject.dir/src/EBO.cpp.o: /Users/vetlebrur/Documents/GitHub/OpenGL-Testing/src/EBO.cpp \
@@ -3034,8 +3032,8 @@ CMakeFiles/MyGLFWProject.dir/src/VAO.cpp.o: /Users/vetlebrur/Documents/GitHub/Op
   /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include/stdint.h \
   /Users/vetlebrur/Documents/GitHub/OpenGL-Testing/include/KHR/khrplatform.h \
   /Users/vetlebrur/Documents/GitHub/OpenGL-Testing/include/glad/glad.h \
-  /Users/vetlebrur/Documents/GitHub/OpenGL-Testing/include/VBO.h \
-  /Users/vetlebrur/Documents/GitHub/OpenGL-Testing/include/VAO.h
+  /Users/vetlebrur/Documents/GitHub/OpenGL-Testing/include/VAO.h \
+  /Users/vetlebrur/Documents/GitHub/OpenGL-Testing/include/VBO.h
 
 CMakeFiles/MyGLFWProject.dir/src/VBO.cpp.o: /Users/vetlebrur/Documents/GitHub/OpenGL-Testing/src/VBO.cpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/Availability.h \
@@ -4770,11 +4768,27 @@ CMakeFiles/MyGLFWProject.dir/src/shaderClass.cpp.o: /Users/vetlebrur/Documents/G
 
 /Users/vetlebrur/Documents/GitHub/OpenGL-Testing/src/EBO.cpp:
 
+/Users/vetlebrur/Documents/GitHub/OpenGL-Testing/include/glm/gtx/vector_angle.hpp:
+
+/Users/vetlebrur/Documents/GitHub/OpenGL-Testing/include/glm/gtx/transform.inl:
+
+/Users/vetlebrur/Documents/GitHub/OpenGL-Testing/include/glm/gtx/quaternion.inl:
+
+/Users/vetlebrur/Documents/GitHub/OpenGL-Testing/include/glm/gtx/component_wise.inl:
+
+/Users/vetlebrur/Documents/GitHub/OpenGL-Testing/include/glm/gtx/transform.hpp:
+
+/Users/vetlebrur/Documents/GitHub/OpenGL-Testing/include/glm/gtx/quaternion.hpp:
+
+/Users/vetlebrur/Documents/GitHub/OpenGL-Testing/include/glm/gtx/norm.hpp:
+
 /Users/vetlebrur/Documents/GitHub/OpenGL-Testing/include/glm/gtc/type_ptr.inl:
 
 /Users/vetlebrur/Documents/GitHub/OpenGL-Testing/include/glm/gtc/quaternion.inl:
 
 /Users/vetlebrur/Documents/GitHub/OpenGL-Testing/include/glm/gtc/matrix_transform.inl:
+
+/Users/vetlebrur/Documents/GitHub/OpenGL-Testing/include/glm/gtc/epsilon.hpp:
 
 /Users/vetlebrur/Documents/GitHub/OpenGL-Testing/include/glm/gtc/constants.inl:
 
@@ -4787,6 +4801,8 @@ CMakeFiles/MyGLFWProject.dir/src/shaderClass.cpp.o: /Users/vetlebrur/Documents/G
 /Users/vetlebrur/Documents/GitHub/OpenGL-Testing/include/glm/mat4x4.hpp:
 
 /Users/vetlebrur/Documents/GitHub/OpenGL-Testing/include/glm/mat4x2.hpp:
+
+/Users/vetlebrur/Documents/GitHub/OpenGL-Testing/include/glm/gtc/quaternion.hpp:
 
 /Users/vetlebrur/Documents/GitHub/OpenGL-Testing/include/glm/ext/vector_uint1_precision.hpp:
 
@@ -4805,6 +4821,8 @@ CMakeFiles/MyGLFWProject.dir/src/shaderClass.cpp.o: /Users/vetlebrur/Documents/G
 /Users/vetlebrur/Documents/GitHub/OpenGL-Testing/include/glm/ext/quaternion_double_precision.hpp:
 
 /Users/vetlebrur/Documents/GitHub/OpenGL-Testing/include/glm/ext/quaternion_common.hpp:
+
+/Users/vetlebrur/Documents/GitHub/OpenGL-Testing/include/glm/glm.hpp:
 
 /Users/vetlebrur/Documents/GitHub/OpenGL-Testing/include/glm/detail/type_vec3.inl:
 
@@ -4976,6 +4994,8 @@ CMakeFiles/MyGLFWProject.dir/src/shaderClass.cpp.o: /Users/vetlebrur/Documents/G
 
 /Users/vetlebrur/Documents/GitHub/OpenGL-Testing/include/glm/detail/type_float.hpp:
 
+/Users/vetlebrur/Documents/GitHub/OpenGL-Testing/include/glm/detail/qualifier.hpp:
+
 /Users/vetlebrur/Documents/GitHub/OpenGL-Testing/include/glm/common.hpp:
 
 /Users/vetlebrur/Documents/GitHub/OpenGL-Testing/include/KHR/khrplatform.h:
@@ -4983,28 +5003,6 @@ CMakeFiles/MyGLFWProject.dir/src/shaderClass.cpp.o: /Users/vetlebrur/Documents/G
 /Users/vetlebrur/Documents/GitHub/OpenGL-Testing/include/VAO.h:
 
 /Users/vetlebrur/Documents/GitHub/OpenGL-Testing/include/Camera.h:
-
-/Users/vetlebrur/Documents/GitHub/OpenGL-Testing/include/glm/gtx/vector_angle.hpp:
-
-/Users/vetlebrur/Documents/GitHub/OpenGL-Testing/include/glm/gtx/transform.inl:
-
-/Users/vetlebrur/Documents/GitHub/OpenGL-Testing/include/glm/gtx/quaternion.inl:
-
-/Users/vetlebrur/Documents/GitHub/OpenGL-Testing/include/glm/gtx/component_wise.inl:
-
-/Users/vetlebrur/Documents/GitHub/OpenGL-Testing/include/glm/gtx/transform.hpp:
-
-/Users/vetlebrur/Documents/GitHub/OpenGL-Testing/include/glm/gtx/quaternion.hpp:
-
-/Users/vetlebrur/Documents/GitHub/OpenGL-Testing/include/glm/gtx/norm.hpp:
-
-/Users/vetlebrur/Documents/GitHub/OpenGL-Testing/include/glm/gtc/quaternion.hpp:
-
-/Users/vetlebrur/Documents/GitHub/OpenGL-Testing/include/glm/gtc/epsilon.hpp:
-
-/Users/vetlebrur/Documents/GitHub/OpenGL-Testing/include/glm/detail/qualifier.hpp:
-
-/Users/vetlebrur/Documents/GitHub/OpenGL-Testing/include/glm/glm.hpp:
 
 /Users/vetlebrur/Documents/GitHub/OpenGL-Testing/include/glad/glad.h:
 

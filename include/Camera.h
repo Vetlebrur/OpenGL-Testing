@@ -1,13 +1,13 @@
 #ifndef CAMERA_CLASS_H
 #define CAMERA_CLASS_H
-
-#include "../include/glad/glad.h"
-#include "/usr/local/include/GLFW/glfw3.h"
-#include "../include/glm/glm.hpp"
-#include "../include/glm/gtc/matrix_transform.hpp"
-#include "../include/glm/gtc/type_ptr.hpp"
-#include "../include/glm/gtx/rotate_vector.hpp"
-#include "../include/glm/gtx/vector_angle.hpp"
+#pragma once
+#include "glad/glad.h"
+#include <GLFW/glfw3.h>
+#include "glm/glm.hpp"
+#include "glm/gtc/matrix_transform.hpp"
+#include "glm/gtc/type_ptr.hpp"
+#include "glm/gtx/rotate_vector.hpp"
+#include "glm/gtx/vector_angle.hpp"
 
 #include "shaderClass.h"
 
@@ -29,7 +29,7 @@ class Camera
         Camera(int width, int height, glm::vec3 position);
 
         void Matrix(float FOVdeg, float nearPlane, float farPlane, Shader& shader, const char* uniform);
-        void Inputs(GLFWwindow* window);
+        //void Inputs(GLFWwindow* window);
 };
 
 #endif

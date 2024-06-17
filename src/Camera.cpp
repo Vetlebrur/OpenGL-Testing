@@ -17,14 +17,14 @@ void Camera::Matrix(float FOVdeg, float nearPlane, float farPlane, Shader& shade
     glUniformMatrix4fv(glGetUniformLocation(shader.ID, uniform), 1, GL_FALSE, glm::value_ptr(projection*view));
 }
 
-void Camera::Inputs(GLFWwindow* window)
-{
-    if(glfwGetKey(window, GLFW_KEY_W) == GLFW_PRESS)
-        Position += speed * Orientation;
-    if(glfwGetKey(window, GLFW_KEY_S) == GLFW_PRESS)
-        Position -= speed * Orientation;
-    if(glfwGetKey(window, GLFW_KEY_A) == GLFW_PRESS)
-        Position -= glm::normalize(glm::cross(Orientation, Up)) * speed;
-    if(glfwGetKey(window, GLFW_KEY_D) == GLFW_PRESS)
-        Position += glm::normalize(glm::cross(Orientation, Up)) * speed;
-}
+//void Camera::Inputs(GLFWwindow* window)
+//{
+//    if(glfwGetKey(window, GLFW_KEY_W) == GLFW_PRESS)
+//        Position += speed * Orientation;
+//    if(glfwGetKey(window, GLFW_KEY_S) == GLFW_PRESS)
+//        Position -= speed * Orientation;
+//    if(glfwGetKey(window, GLFW_KEY_A) == GLFW_PRESS)
+//        Position -= glm::normalize(glm::cross(Orientation, Up)) * speed;
+//    if(glfwGetKey(window, GLFW_KEY_D) == GLFW_PRESS)
+//        Position += glm::normalize(glm::cross(Orientation, Up)) * speed;
+//}
